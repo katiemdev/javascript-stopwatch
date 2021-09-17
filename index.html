@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rochester&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Stopwatch 2</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="timer" id="t1">00</h2><span class="timer" id="c1">:</span>
+        <h2 class="timer" id="t2">00</h2><span class="timer" id="c2">.</span>
+        <h2 class="timer" id="t3">00</h2>
+
+        <!-- <div class="timer">00</div>
+        <span class="timer colon">:</span>
+        <div class="timer">00</div>
+        <span class="timer colon">:</span>
+        <div class="timer mSecs">00</div> -->
+
+        <button type="button" id="toggle">Start</button>
+        <button type="button" id="reset">Reset</button>
+
+        <input id="base" type="color" name="base" value="#ffffff">
+
+        <label class="switch">
+        <input id="font" type="checkbox" name="font" value="#000000">
+        <span class="slider round"></span>
+        </label>
+    </div>
+
+<script src="js/stopwatch.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
